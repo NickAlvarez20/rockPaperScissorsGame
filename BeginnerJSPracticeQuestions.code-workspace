@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../BeginnerJSPracticeQuestions"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TodoList"
+	}
+}

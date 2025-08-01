@@ -1,0 +1,41 @@
+<!-- // Rock Paper Scissors against a CPU program 
+//how many wins player has
+//how many wins cpu has
+//reset button
+//3 buttons rock paper scissors
+//The computer selected this you selected that 
+//you win increment player count 1  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="headerStyling">
+      <h1>Welcome To <span style="color: burlywood;">Rock</span> <span style="color: green;">Paper</span> <span style="color: gold;">Scissors!</span></h1>
+      <h2>The rules are simple, choose either Rock, Paper, or Scissors</h2>
+    <h2>The first player to 10, WINS!</h2>
+    </div>
+    <div class="player1Styling">
+      <h3>Player 1 score: <p id="player1Score">0</p></h3>
+    </div>
+    <div class="CPUStyling">
+      <h3>Computer score: <p id="computerScore">0</p>
+    </h3></h3>
+    </div>
+
+    <div class="buttonStyling">
+      <button id="RockButton" style="width: 200px; margin-right: 25px;" onclick="computerRandomChooseRock()">Rock</button>
+      <button id="PaperButton" style="width: 200px; margin-right: 25px;" onclick="computerRandomChoosePaper()">Paper</button>
+      <button id="ScissorsButton" style="width: 200px; margin-right: 25px;" onclick="computerRandomChooseScissors()">Scissors</button>
+    </div>
+
+    <button id="ResetButton" style="width: 150px;" onclick="resetGame()">Reset Game</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+.headerStyling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player1Styling {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+  width: 50%;
+}
+
+.CPUStyling {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+  width: 50%;
+}
+
+.buttonStyling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: rgb(24, 80, 154);
+    font-size: 39px;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+
+
+p {
+    color: whitesmoke;
+}
+
+body {
+    background-image: url("rock paper scissors.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
